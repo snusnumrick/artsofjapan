@@ -18,6 +18,7 @@ const config: Config = {
     },
     extend: {
       colors: {
+        cream: "#FFF2C7",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -91,18 +92,18 @@ const config: Config = {
           '75%': { transform: 'translate(15px, 10px) scale(1)', opacity: '0.9' },
         },
         'float-complex-1': {
-          '0%, 100%': { transform: 'translate(0, 0) scale(1)', opacity: '0.5' },
-          '20%': { transform: 'translate(60px, -40px) scale(1.2)', opacity: '0.8' },
-          '40%': { transform: 'translate(100px, 20px) scale(0.8)', opacity: '0.3' },
-          '60%': { transform: 'translate(20px, 80px) scale(1.1)', opacity: '0.7' },
-          '80%': { transform: 'translate(-40px, 40px) scale(0.9)', opacity: '0.6' },
+          '0%, 100%': { transform: 'translate(0, 0)' },
+          '20%': { transform: 'translate(40px, -30px)' },
+          '40%': { transform: 'translate(60px, 10px)' },
+          '60%': { transform: 'translate(10px, 40px)' },
+          '80%': { transform: 'translate(-20px, 20px)' },
         },
         'float-complex-2': {
-          '0%, 100%': { transform: 'translate(0, 0) scale(1)', opacity: '0.6' },
-          '20%': { transform: 'translate(-80px, 60px) scale(0.9)', opacity: '0.8' },
-          '40%': { transform: 'translate(-20px, -100px) scale(1.3)', opacity: '0.4' },
-          '60%': { transform: 'translate(60px, -30px) scale(0.7)', opacity: '0.9' },
-          '80%': { transform: 'translate(30px, 80px) scale(1.1)', opacity: '0.5' },
+          '0%, 100%': { transform: 'translate(0, 0)' },
+          '20%': { transform: 'translate(-40px, 30px)' },
+          '40%': { transform: 'translate(-10px, -50px)' },
+          '60%': { transform: 'translate(30px, -20px)' },
+          '80%': { transform: 'translate(15px, 40px)' },
         },
         'spin-slow': {
           '0%': { transform: 'rotate(0deg)' },
