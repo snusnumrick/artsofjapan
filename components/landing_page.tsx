@@ -66,8 +66,8 @@ export function Landing_page() {
                     href="https://www.instagram.com/greenegin.karate"
                     className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-float-complex-1"
                     style={{
-                        left: '15%',
-                        top: '35%',
+                        left: '10%',
+                        top: '30%',
                         animationDuration: '60s',
                         animationTimingFunction: 'ease-in-out',
                         animationIterationCount: 'infinite'
@@ -89,8 +89,8 @@ export function Landing_page() {
                     href="https://www.instagram.com/greenegin.kokedamas"
                     className="absolute w-32 h-32 md:w-64 md:h-64 rounded-full overflow-hidden cursor-pointer animate-float-complex-2"
                     style={{
-                        right: '20%',
-                        bottom: '35%',
+                        right: '10%',
+                        bottom: '30%',
                         animationDuration: '70s',
                         animationTimingFunction: 'ease-in-out',
                         animationIterationCount: 'infinite'

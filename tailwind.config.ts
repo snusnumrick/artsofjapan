@@ -93,17 +93,15 @@ const config: Config = {
         },
         'float-complex-1': {
           '0%, 100%': { transform: 'translate(0, 0)' },
-          '20%': { transform: 'translate(10px, -30px)' },
-          '40%': { transform: 'translate(15px, 10px)' },
-          '60%': { transform: 'translate(5px, 40px)' },
-          '80%': { transform: 'translate(-5px, 20px)' },
+          '25%': { transform: 'translate(15%, -25%)' },
+          '50%': { transform: 'translate(30%, 0%)' },
+          '75%': { transform: 'translate(15%, 25%)' },
         },
         'float-complex-2': {
           '0%, 100%': { transform: 'translate(0, 0)' },
-          '20%': { transform: 'translate(-10px, 30px)' },
-          '40%': { transform: 'translate(-5px, -50px)' },
-          '60%': { transform: 'translate(10px, -20px)' },
-          '80%': { transform: 'translate(5px, 40px)' },
+          '25%': { transform: 'translate(-15%, 25%)' },
+          '50%': { transform: 'translate(-30%, 0%)' },
+          '75%': { transform: 'translate(-15%, -25%)' },
         },
         'spin-slow': {
           '0%': { transform: 'rotate(0deg)' },
