@@ -58,7 +58,7 @@ export function Landing_page() {
                         className="w-full h-full"
                         fallbackImage={karatePic.src}
                     />
-                    {/*<div className="absolute inset-0 bg-cream/60"></div>*/}
+                    <div className="absolute inset-0 bg-cream/60"></div>
                 </Link>
 
                 <Link
@@ -81,7 +81,7 @@ export function Landing_page() {
                         className="w-full h-full"
                         fallbackImage={kokedamasPic.src}
                     />
-                    {/*<div className="absolute inset-0 bg-cream/60"></div>*/}
+                    <div className="absolute inset-0 bg-cream/60"></div>
                 </Link>
             </div>
 
